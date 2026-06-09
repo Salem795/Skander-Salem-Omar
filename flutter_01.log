@@ -1,0 +1,72 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.35.4, on Microsoft Windows [version 10.0.22631.5472], locale en-GB) [5.1s]
+    [32m•[39m Flutter version 3.35.4 on channel stable at D:\fultter\flutter_windows_3.35.4-stable\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision d693b4b9db (7 months ago), 2025-09-16 14:27:41 +0000
+    [32m•[39m Engine revision c298091351
+    [32m•[39m Dart version 3.9.2
+    [32m•[39m DevTools version 2.48.0
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop,
+      enable-android, enable-ios, cli-animations, enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Professionnel 64-bit, 23H2, 2009) [16.2s]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0) [22.8s]
+    [32m•[39m Android SDK at C:\Users\Aziz\AppData\Local\Android\sdk
+    [32m•[39m Emulator version 36.1.9.0 (build_id 13823996) (CL:N/A)
+    [32m•[39m Platform android-36, build-tools 36.1.0
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.7+-13880790-b1038.58)
+    [33m![39m Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[32m[✓][39m Chrome - develop for the web [53ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[31m[✗][39m Visual Studio - develop Windows apps [51ms]
+    [31m✗[39m Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[32m[✓][39m Android Studio (version 2025.1.3) [15ms]
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.7+-13880790-b1038.58)
+
+[32m[✓][39m VS Code (version unknown) [9ms]
+    [32m•[39m VS Code at C:\Users\Aziz\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.132.0
+    [31m✗[39m Unable to determine VS Code version.
+
+[32m[✓][39m Connected device (4 available) [5.5s]
+    [32m•[39m TECNO KJ5 (mobile) • 11143553CZ009352 • android-arm64  • Android 13 (API 33)
+    [32m•[39m Windows (desktop)  • windows          • windows-x64    • Microsoft Windows [version
+      10.0.22631.5472]
+    [32m•[39m Chrome (web)       • chrome           • web-javascript • Google Chrome 147.0.7727.102
+    [32m•[39m Edge (web)         • edge             • web-javascript • Microsoft Edge 147.0.3912.72
+
+[32m[✓][39m Network resources [6.4s]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
